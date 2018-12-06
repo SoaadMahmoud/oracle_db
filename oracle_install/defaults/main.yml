@@ -40,7 +40,7 @@ oracle_dba_group:
 # FILE_SYSTEM_STORAGE | ASM_STORAGE
 oracle_storage_type: FILE_SYSTEM_STORAGE
 
-oracle_installer_path: /home/c9admin/ansible/roles/oracle-database/files
+oracle_installer_path: /home/c9admin/oracle_db
 
 # array  os images avaialbe
 oracle_images:
