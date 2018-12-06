@@ -1,6 +1,6 @@
 ---
 
-oracle_version: 11.2.0.4
+oracle_version: 11.2.0.1
 
 # Oracle Editions avaialble: EE, SEONE, SE
 oracle_edition: EE
@@ -44,8 +44,8 @@ oracle_installer_path: /home/c9admin/oracle_db
 
 # array  os images avaialbe
 oracle_images:
-    - { image: "{{ oracle_installer_path }}/oracle_database-11.2.0.4-1of2.zip", version: "11.2.0.4" }
-    - { image: "{{ oracle_installer_path }}/oracle_database-11.2.0.4-2of2.zip", version: "11.2.0.4" } 
+    - { image: "{{ oracle_installer_path }}/oracle_database-11.2.0.1-1of2.zip", version: "11.2.0.1" }
+    - { image: "{{ oracle_installer_path }}/oracle_database-11.2.0.1-2of2.zip", version: "11.2.0.1" } 
    #- { image: "{{ oracle_installer_path }}/p13390677_112040_Linux-x86-64_1of7.zip", version: "11.2.0.4" }
    #- { image: "{{ oracle_installer_path }}/p13390677_112040_Linux-x86-64_2of7.zip", version: "11.2.0.4" } 
    #- { image: "{{ oracle_installer_path }}/linuxx64_12201_database.zip", version: "12.2.0.1" }
