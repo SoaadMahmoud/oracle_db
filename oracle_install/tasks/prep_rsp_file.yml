@@ -14,7 +14,7 @@
 #    regexp: "^{{ item.regex }}"
 #    line: "{{ item.regex }}={{ item.value }}"
 
-- name: set inline changes (my oracle support for 11.2.0.4)
+- name: set inline changes (my oracle support for 11.2.0.1)
   lineinfile:
     path: /tmp/oracle/db_install.rsp
     regexp: "^{{ item.regex }}"
