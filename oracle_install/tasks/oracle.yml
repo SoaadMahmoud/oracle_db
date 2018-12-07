@@ -50,7 +50,7 @@
 
 - name: copy listner.ora 
   copy:
-    src: /etc/ansible/listener.ora
+    src: /home/c9admin/oracle_db/ansible/oracle_db/listener.ora
     dest: /u01/app/oracle/product/11.2.0.1/ora_1/network/admin/listener.ora
 - name: chown of installer
   command: chown  oracle:oinstall /u01/app/oracle/product/11.2.0.1/ora_1/network/admin/listener.ora
