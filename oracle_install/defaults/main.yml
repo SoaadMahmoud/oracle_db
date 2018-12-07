@@ -3,7 +3,7 @@
 oracle_version: 11.2.0.1
 
 # Oracle Editions avaialble: EE, SEONE, SE
-oracle_edition: EE
+oracle_edition: SE
 
 # installation mode. Avaialable modes are : INSTALL_DB_SWONLY, INSTALL_DB_AND_CONFIG
 install_mode: INSTALL_DB_SWONLY
