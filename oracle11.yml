@@ -8,6 +8,6 @@
     - oracle_install
   vars:
     oracle_edition: SE
-    oracle_version: 11.2.0.1
+    oracle_version: 11.2.0.4
     install_mode: INSTALL_DB_AND_CONFIG
-    oracle_db_name: demo
+    oracle_db_name: DB11g

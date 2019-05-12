@@ -1,4 +1,18 @@
-40.117.82.52
+#gdd-coffre.cif.lan       ansible_host=172.16.10.10
+#bdd-tu.cif.lan           ansible_host=172.16.20.10
+ypcbdd-rt.cif.lan        ansible_host=172.16.30.23
+ypcbdd-rf.cif.lan        ansible_host=172.16.40.19
+arabsdbb-rf.cif.lan     ansible_host=172.16.40.23
+ybcbdd-homolog.cif.lan   ansible_host=172.16.50.21
+arabsdbb-homolog.cif.lan ansible_host=172.16.50.26
+bdd-islam-coffre.cif.lan ansible_host=172.16.60.10
+bdd-islam-tu.cif.lan     ansible_host=172.16.70.10
+ypcbdd-islam-homolog.cif.lan ansible_host=172.16.80.21
+
+#bdd-rt.cif.lan ansible_host=172.16.30.10
+#bdd-rf.cif.lan ansible_host=172.16.40.10
+#bdd-homolog.cif.lan  ansible_host=172.16.50.g0
+#gdd-islam-homolog.cif.lan ansible_host=172.16.80.10
 # This is the default ansible 'hosts' file.
 #
 # It should live in /etc/ansible/hosts
